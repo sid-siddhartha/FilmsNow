@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmsNow</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- NavBar-->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play'></i> FilmsNow
+        </a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Menu -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming</a></li>
+            <li><a href="#newsletter">NewsLetter</a></li>
+        </ul>
+        <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+
+            <!-- Box 1 -->
+            <div class="swiper-slide conatainer">
+                <img src="Images/home1.jpg" alt="home1">
+                <div class="home-text">
+                    <span>Cillian Murphy</span>
+                    <h1>Oppenheimer</h1>
+                    <a href="https://youtu.be/uYPbbksJxIg?si=A9CkkCgm7WXmZyDm" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="swiper-slide conatainer">
+                <img src="Images/home2.jpg" alt="home2">
+                <div class="home-text">
+                    <span>Margot Robbie</span>
+                    <h1>Barbie</h1>
+                    <a href="https://youtu.be/pBk4NYhWNMM?si=g8y5b79s5kiolyhd" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="swiper-slide conatainer">
+                <img src="Images/home3.jpg" alt="home3">
+                <div class="home-text">
+                    <span>Marvel</span>
+                    <h1>Deadpool &<br> Wolverine</h1>
+                    <a href="https://youtu.be/73_1biulkYk?si=C_G8UqcRYvTDM14v" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Movies -->
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This week</h2>
+        <!-- Movies Container -->
+        <div class="movies-container">
+            
+            <!-- Movie 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img1.jpg" alt="Godzilla Minus One">
+                </div>
+                <h3>GodZilla Minus One</h3>
+                <span>2hr 5m | Action/Sci-fi </span>
+            </div>
+            
+            <!-- Movie 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img2.jpg" alt="BobMarley">
+                </div>
+                <h3>Bob Marley: One Love</h3>
+                <span>1hr 47m | Musical/Drama </span>
+            </div>
+
+            <!-- Movie 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img3.jpg" alt="Godzilla X Kong">
+                </div>
+                <h3>GodZilla X Kong : The New Empire</h3>
+                <span>1h 55m | Action/Sci-fi </span>
+            </div>
+
+            <!-- Movie 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img4.jpg" alt="MonkeyMan">
+                </div>
+                <h3>Monkey Man</h3>
+                <span>2h | Action/Thriller </span>
+            </div>
+
+            <!-- Movie 5 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img5.jpg" alt="MadameWeb">
+                </div>
+                <h3>Madame Web</h3>
+                <span>1h 56m | Action/Sci-fi </span>
+            </div>
+
+            <!-- Movie 6 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img6.jpg" alt="Oppenheimer">
+                </div>
+                <h3>Oppenheimer</h3>
+                <span>3h | Thriller/Historical </span>
+            </div>
+
+            <!-- Movie 7 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img7.jpg" alt="Ab">
+                </div>
+                <h3>Abigail</h3>
+                <span>1h 49m | Horror/Thriller </span>
+            </div>
+
+            <!-- Movie 8 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img8.jpg" alt="C">
+                </div>
+                <h3>Challengers</h3>
+                <span>2h 11m | Sport/Romance </span>
+            </div>
+
+            <!-- Movie 9 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img9.jpg" alt="CW">
+                </div>
+                <h3>Civil War</h3>
+                <span>1h 49m | War/Action </span>
+            </div>
+
+            <!-- Movie 10 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="Images/img10.jpg" alt="Dune2">
+                </div>
+                <h3>Dune: Part Two</h3>
+                <span>2hr 46m | Adventure/Sci-fi </span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Coming-->
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        
+        <!-- Coming Container-->
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <!-- Movie 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img11.jpg" alt="WR">
+                </div>
+                <h3>The Wild Robot</h3>
+                <span>Family/Adventure</span>
+            </div>
+            
+            <!-- Movie 2 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img12.jpg" alt="Alien">
+                </div>
+                <h3>Alien Romulus</h3>
+                <span>Horror/Sci-fi</span>
+            </div>
+
+            <!-- Movie 3 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img13.jpg" alt="DW">
+                </div>
+                <h3>Deadpool & Wolverine</h3>
+                <span>Action/Comedy</span>
+            </div>
+
+            <!-- Movie 4 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img14.jpg" alt="F">
+                </div>
+                <h3>Furiosa: A Mad Max Saga</h3>
+                <span>Action/Adventure</span>
+            </div>
+
+            <!-- Movie 5 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img15.jpg" alt="Insideout2">
+                </div>
+                <h3>Inside Out 2</h3>
+                <span>Drama/Adventure</span>
+            </div>
+
+            <!-- Movie 6 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img16.jpg" alt="Kingdom">
+                </div>
+                <h3>Kingdom of the Planet of the Apes</h3>
+                <span>Action/Sci-fi</span>
+            </div>
+
+            <!-- Movie 7 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img17.jpg" alt="KH">
+                </div>
+                <h3>Kraven the Hunter</h3>
+                <span>Action/Adventure</span>
+            </div>
+
+            <!-- Movie 8 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img18.jpg" alt="Tarot">
+                </div>
+                <h3>Tarot</h3>
+                <span>Horror/Comedy</span>
+            </div>
+
+            <!-- Movie 9 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img19.jpg" alt="BKW">
+                </div>
+                <h3>Boy Kills World</h3>
+                <span>Action/Thriller</span>
+            </div>
+
+            <!-- Movie 10 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="Images/img20.jpg" alt="BB">
+                </div>
+                <h3>Beetlejuice Beetlejuice</h3>
+                <span>Comedy/Horror</span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get <br>NewsLetter</h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter Email.." required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play'></i> FilmsNow
+        </a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Sid All Rights Reserved.</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- Link to Custo m JS -->
+    <script src="main.js"></script>
+</body>
+</html>
